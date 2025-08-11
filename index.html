@@ -6,176 +6,155 @@
   <title>WebStudio</title>
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="main-nav">
+        <a class="logo" href="./index.html">WEB<span>STUDIO</span></a>
+        <ul class="menu">
+          <li><a class="menu-link" href="./index.html">Studio</a></li>
+          <li><a class="menu-link" href="">Portfolio</a></li>
+          <li><a class="menu-link" href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="address">
+        <ul class="contacts-list">
+          <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        </ul>
+      </address>
+    </div>
+  </header>
+
+  <main>
+    <section id="Solutions" class="section hero">
       <div class="container">
-        <a href="./index.html">WEB<span>STUDIO</span></a>
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-btn" type="button">Order Service</button>
+      </div>
+    </section>
 
-        <nav>
-          <ul>
-            <li><a href="#">Studio</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contacts</a></li>
-          </ul>
-        </nav>
-
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+    <section id="Benefits" class="section benefits">
+      <div class="container">
+        <h2 class="visually-hidden">Benefits</h2>
+        <ul class="benefits-list">
+          <li class="benefit-item">
+            <h3 class="benefit-title">Strategy</h3>
+            <p class="benefit-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+          </li>
+          <li class="benefit-item">
+            <h3 class="benefit-title">Punctuality</h3>
+            <p class="benefit-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+          </li>
+          <li class="benefit-item">
+            <h3 class="benefit-title">Diligence</h3>
+            <p class="benefit-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
+          </li>
+          <li class="benefit-item">
+            <h3 class="benefit-title">Technologies</h3>
+            <p class="benefit-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+          </li>
         </ul>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section id="Solutions" class="section">
-        <div class="container">
-          <h1>Effective Solutions for Your Business</h1>
-          <button type="button">Order Service</button>
-        </div>
-      </section>
-
-      <section id="Benefits" class="section">
-        <div class="container">
-          <h2>Benefits</h2>
-          <ul>
-            <li>
-              <img src="images/section-2-logo-1.png" alt="Strategy">
-              <h3>Strategy</h3>
-              <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-            </li>
-            <li>
-              <img src="images/section-2-logo-2.png" alt="Punctuality">
-              <h3>Punctuality</h3>
-              <p>Bring the key message to the brand’s audience for the best price within the shortest possible time.</p>
-            </li>
-            <li>
-              <img src="images/section-2-logo-3.png" alt="Diligence">
-              <h3>Diligence</h3>
-              <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
-            </li>
-            <li>
-              <img src="images/section-2-logo-4.png" alt="Technologies">
-              <h3>Technologies</h3>
-              <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="Team" class="section">
-        <div class="container">
-          <h2>Our Team</h2>
-          <ul>
-            <li>
-              <img class="member-photo" src="images/men1.jpg" width="264" height="260" alt="Mark Guerrero smiling" />
-              <h3>Mark Guerrero</h3>
-              <p>Product Designer</p>
-              <div class="icons">
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-instagram"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-twitter"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-facebook"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-linkedin"></use></svg></a>
-              </div>           
-            </li>
-            <li>
-              <img class="member-photo" src="images/men2.jpg" width="264" height="260" alt="Tom Ford smiling" />
-              <h3>Tom Ford</h3>
-              <p>Frontend Developer</p>
-              <div class="icons">
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-instagram"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-twitter"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-facebook"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-linkedin"></use></svg></a>
-              </div>
-            </li>
-            <li>
-              <img class="member-photo" src="images/women3.jpg" width="264" height="260" alt="Camila Garcia smiling" />
-              <h3>Camila Garcia</h3>
-              <p>Marketing</p>
-              <div class="icons">
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-instagram"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-twitter"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-facebook"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-linkedin"></use></svg></a>
-              </div>
-            </li>
-            <li>
-              <img class="member-photo" src="images/men4.jpg" width="264" height="260" alt="Daniel Wilson smiling" />
-              <h3>Daniel Wilson</h3>
-              <p>UI Designer</p>
-              <div class="icons">
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-instagram"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-twitter"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-facebook"></use></svg></a>
-                <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-linkedin"></use></svg></a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="Portfolio" class="section">
-          <div class="container">
-            <h2>Our Portfolio</h2>
-            <ul>
-                <li>
-                    <img src="images/BankApp.jpg" width="264" alt="Banking App">
-                    <h3>Banking App</h3>
-                    <p>App</p>
-                </li>
-                <li>
-                    <img src="images/QRScanner.png" width="264" alt="Cashless Payment">
-                    <h3>Cashless Payment</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="images/LaptopAndPhone.png" width="264" alt="Meditation App">
-                    <h3>Meditation App</h3>
-                    <p>App</p>
-                </li>
-                <li>
-                    <img src="images/Taxi.jpg" width="264" alt="Taxi Service">
-                    <h3>Taxi Service</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="images/Phone.jpg" width="264" alt="Screen Illustrations">
-                    <h3>Screen Illustrations</h3>
-                    <p>Design</p>
-                </li>
-                <li>
-                    <img src="images/WomenWithPhone.jpg" width="264" alt="Online Courses">
-                    <h3>Online Courses</h3>
-                    <p>Marketing</p>
-                </li>
-            </ul>
-          </div>
-      </section>
-    </main>
-
-    <footer class="section">
-      <div class="container footer-wrap">
-        <div class="footer-left">
-          <a class="footer-logo" href="./index.html">WEB<span>STUDIO</span></a>
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with digital
-            marketing & growth solutions.
-          </p>
-        </div>
-    
-        <div class="footer-right">
-          <p class="social-title">Social media</p>
-          <div class="social-list">
-            <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-instagram"></use></svg></a>
-            <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-twitter"></use></svg></a>
-            <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-facebook"></use></svg></a>
-            <a class="soc" href="#"><svg class="icon"><use href="images/icons.svg#icon-linkedin"></use></svg></a>
-          </div>
-        </div>
+    <section id="Team" class="section team">
+      <div class="container">
+        <h2 class="section-title">Our Team</h2>
+        <ul class="team-list">
+          <li class="team-item">
+            <img src="./images/men1.jpg" width="264" height="260" alt="Mark Guerrero smiling">
+            <div class="team-card">
+              <h3 class="team-name">Mark Guerrero</h3>
+              <p class="team-role">Product Designer</p>
+            </div>
+          </li>
+          <li class="team-item">
+            <img src="./images/men2.jpg" width="264" height="260" alt="Tom Ford smiling">
+            <div class="team-card">
+              <h3 class="team-name">Tom Ford</h3>
+              <p class="team-role">Frontend Developer</p>
+            </div>
+          </li>
+          <li class="team-item">
+            <img src="./images/women3.jpg" width="264" height="260" alt="Camila Garcia smiling">
+            <div class="team-card">
+              <h3 class="team-name">Camila Garcia</h3>
+              <p class="team-role">Marketing</p>
+            </div>
+          </li>
+          <li class="team-item">
+            <img src="./images/men4.jpg" width="264" height="260" alt="Daniel Wilson smiling">
+            <div class="team-card">
+              <h3 class="team-name">Daniel Wilson</h3>
+              <p class="team-role">UI Designer</p>
+            </div>
+          </li>
+        </ul>
       </div>
-    </footer>
+    </section>
+
+    <section id="Portfolio" class="section portfolio">
+      <div class="container">
+        <h2 class="section-title">Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <img src="./images/bankapp.jpg" width="360" height="300" alt="Banking App">
+            <div class="portfolio-card">
+              <h3 class="portfolio-item-title">Banking App</h3>
+              <p class="portfolio-item-text">App</p>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/qrscanner.jpg" width="360" height="300" alt="Cashless Payment">
+            <div class="portfolio-card">
+              <h3 class="portfolio-item-title">Cashless Payment</h3>
+              <p class="portfolio-item-text">Marketing</p>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/laptopandphone.jpg" width="360" height="300" alt="Meditation App">
+            <div class="portfolio-card">
+              <h3 class="portfolio-item-title">Meditation App</h3>
+              <p class="portfolio-item-text">App</p>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/taxi.jpg" width="360" height="300" alt="Taxi Service">
+            <div class="portfolio-card">
+              <h3 class="portfolio-item-title">Taxi Service</h3>
+              <p class="portfolio-item-text">Marketing</p>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/phone.jpg" width="360" height="300" alt="Screen Illustrations">
+            <div class="portfolio-card">
+              <h3 class="portfolio-item-title">Screen Illustrations</h3>
+              <p class="portfolio-item-text">Design</p>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/womenwithphone.jpg" width="360" height="300" alt="Online Courses">
+            <div class="portfolio-card">
+              <h3 class="portfolio-item-title">Online Courses</h3>
+              <p class="portfolio-item-text">Marketing</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <a class="logo" href="./index.html">WEB<span>STUDIO</span></a>
+      <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </div>
+  </footer>
 </body>
 </html>
