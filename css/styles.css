@@ -18,7 +18,7 @@ a{text-decoration:none;color:inherit}
 .container{width:1158px;margin:0 auto;padding:0 15px}
 .section{padding:120px 0}
 .section-title{font-size:36px;line-height:1.11;text-align:center;letter-spacing:.02em;color:var(--title);margin:0 0 72px}
-/* exact visually-hidden pattern expected by checker */
+
 .visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;border:0;padding:0;white-space:nowrap;clip-path:inset(100%);clip:rect(0 0 0 0);overflow:hidden}
 
 /* header */
@@ -36,7 +36,7 @@ a{text-decoration:none;color:inherit}
 .contacts-link:hover,.contacts-link:focus{color:var(--accent-hover)}
 
 /* hero */
-.hero{padding:188px 0;background-color:var(--title);text-align:center}
+.hero{padding:188px 0;background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("./images/background-section1.jpg");text-align:center}
 .hero-title{max-width:496px;margin:0 auto 48px;color:var(--white);font-size:56px;line-height:1.07;letter-spacing:.02em}
 .hero-btn{display:block;min-width:169px;height:56px;margin:0 auto;padding:16px 32px;border:none;border-radius:4px;background-color:var(--accent);color:var(--white);font-weight:500;font-size:16px;line-height:1.5;letter-spacing:.04em;cursor:pointer}
 .hero-btn:hover,.hero-btn:focus{background-color:var(--accent-hover)}
