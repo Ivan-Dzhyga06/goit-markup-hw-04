@@ -155,6 +155,7 @@ header {position:sticky;top:0;background-color:#fff;z-index:1000;box-shadow:0px 
 
 .footer-brand {max-width:264px;margin-right:120px;}
 .footer p{line-height:1.5;letter-spacing:0.02em;}
+.footer-socials .social-icon { width:24px; height:24px; }
 
 /* Third section social links */
 .socials-list{display:flex;justify-content:center;gap:24px;list-style:none;margin:0;padding:0;}
